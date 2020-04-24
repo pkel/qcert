@@ -633,6 +633,7 @@ Section NRAEnv.
           econstructor; eauto.
       Qed.
 
+
       (** Evaluation is correct wrt. the cNRAEnv semantics. *)
 
       Lemma nraenv_macro_sem_correct : forall e env d1 d2,
